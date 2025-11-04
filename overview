@@ -206,7 +206,7 @@ views:
             icon: hue:ceiling-fugato-two-alt
             tap_action:
               action: navigate
-              navigation_path: '#cloosisgay'
+              navigation_path: '#rtspcamera'
             grid_options:
               columns: 12
               rows: auto
@@ -632,7 +632,7 @@ views:
             cards:
               - type: custom:bubble-card
                 card_type: pop-up
-                hash: '#cloosisgay'
+                hash: '#rtspcamera'
                 name: Cameras
                 icon: mdi:cctv
                 button_type: name
@@ -649,13 +649,13 @@ views:
                 square: false
                 cards:
                   - type: custom:webrtc-camera
-                    url: rtsp://homeassistant.local:8554/a
+                    url: 
                   - type: custom:webrtc-camera
-                    url: rtsp://homeassistant.local:8554/b
+                    url: 
                   - type: custom:webrtc-camera
-                    url: rtsp://homeassistant.local:8554/c
+                    url: 
                   - type: custom:webrtc-camera
-                    url: rtsp://homeassistant.local:8554/d
+                    url: 
           - type: vertical-stack
             cards:
               - type: custom:mushroom-lock-card
@@ -770,7 +770,7 @@ views:
         icon: phu:reolink-trackmix
         tap_action:
           action: navigate
-          navigation_path: '#cloosisgay'
+          navigation_path: '#rtspcamera'
       - type: entity
         show_name: true
         show_state: true
@@ -843,12 +843,12 @@ views:
             icon: hue:ceiling-fugato-two-alt
             tap_action:
               action: navigate
-              navigation_path: '#cloosisgay'
+              navigation_path: '#rtspcamera'
           - type: vertical-stack
             cards:
               - type: custom:bubble-card
                 card_type: pop-up
-                hash: '#cloosisgay'
+                hash: '#rtspcamera'
                 name: Cameras
                 icon: mdi:cctv
                 button_type: name
@@ -865,13 +865,13 @@ views:
                 square: false
                 cards:
                   - type: custom:webrtc-camera
-                    url: rtsp://homeassistant.local:8554/a
+                    url:
                   - type: custom:webrtc-camera
-                    url: rtsp://homeassistant.local:8554/b
+                    url: 
                   - type: custom:webrtc-camera
-                    url: rtsp://homeassistant.local:8554/c
+                    url: 
                   - type: custom:webrtc-camera
-                    url: rtsp://homeassistant.local:8554/d
+                    url: 
         column_span: 1
       - type: grid
         cards:
